@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>registration</title>
+    <link rel="stylesheet" href="estilos/NYSLcss.css">
+</head>
+
+<body class="bodyRules">
+    <header>
+        <h1 class="tipo3">Northside Youth Soccer League</h1>
+    </header>
+    <nav class="iconos">
+        <div class="casaRules">
+            <a class="ball" href="Index4.html"><img class="zoom" src="FotosNYSL/casa.png" alt="casa">
+            </a>
+        </div>
+
+        <div class="porteria">
+            <a class="ball" href="aboutAs.html"><img class="zoom" src="FotosNYSL/porteria.png" alt="porteria"></a>
+        </div>
+        <div class="contacto">
+            <a class="ball" href="contactoNYSL.html"><img class="zoom" src="FotosNYSL/contact2.png" alt="contacto"></a>
+        </div>
+        <div class="rules">
+            <a class="ball" href="rules.html"><img class="zoom" src="FotosNYSL/rules3.jpg" alt="rules"></a>
+        </div>
+        <div class="info">
+            <a class="ball" href="tablas.html"><img class="zoom" src="FotosNYSL/info.png" alt="info"></a>
+        </div>
+    </nav>
+
+    <h2 class="tipo1">Registration Form</h2>
+
+    <div>
+
+
+        <form action="show_data.html" method="get">
+            <div class="padreButton">
+
+                <div class="hijoButton">
+                    <button type="reset">Clean Form</button>
+                </div>
+                <div class="hijoButton">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="padreData">
+                <div class="hijoData1">
+                    <div>
+                        <label>Player’s First Name:</label><input type="text" name="First Name">
+                    </div>
+                    <div>
+                        <label>Last Name:</label><input type="text" name="Last Name">
+                    </div>
+                </div>
+                <div class="hijoData1">
+                    <div><label>Street Address:</label><input type="text" name="Address" class="inputAddress"></div>
+                </div>
+
+                <div class="hijoData1">
+                    <div>
+                        <label>City:</label><input type="text" name="City">
+                    </div>
+                    <div>
+                        <label>Zyp Code:</label><input type="text" name="Zipcode">
+                    </div>
+                </div>
+                <div class="hijoData1">
+                    <div>
+                        <label>Birth Date (mm/dd/yyyy):</label><input type="date" name="BirthDate">
+                    </div>
+                    <div>
+                        <label>Gender:</label>
+                        <input type="radio" name="gender" value="Female" checked> Female
+                        <input type="radio" name="gender" value="Male"> Male
+                    </div>
+                </div>
+
+                <div class="hijoData1">
+                    <div><label>Parent/Guardian:</label><input type="text" name="Parent Guardian" class="inputGuardian"></div>
+                </div>
+                <div class="hijoData1">
+                    <label>Grade:</label>
+                    <input type="radio" name="grade" value="Pre-School" checked> Pre-School
+                    <input type="radio" name="grade" value="1st"> 1st
+                    <input type="radio" name="grade" value="2nd" checked> 2nd
+                    <input type="radio" name="grade" value="3rd"> 3rd
+                    <input type="radio" name="grade" value="4th" checked> 4th
+                    <input type="radio" name="grade" value="5th"> 5th
+                </div>
+
+                <div class="hijoData1">
+                    <div>
+                        <label>Contact Phone:</label><input type="tel" name="phone">
+                    </div>
+                    <div>
+                        <label>Email:</label><input type="email" name="Email">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="padreH3"><h3 class="hijoH3">Which elementary schools do you live near?</h3></div>
+            <div class="padreSchool">
+                <div class="hijoSchool">
+
+                    <div>
+                        <label><b>First Closest School:</b></label>
+                        <select name="Second Closest School:">
+                            
+                            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                            <option value="Greenbay" selected>Greenbay</option>
+                            <option value="Greenbay" selected>Greenbay</option>
+                            <option value="Howard A Yeager" selected>Howard A Yeager</option>
+                            <option value="Marjorie P Hart" selected>Marjorie P Hart</option>
+                            <option value="North Elementary" selected>North Elementary</option>
+                            <option value="South Elementary" selected>South Elementary</option>
+                            <option value="click to select" selected>click to select</option>
+                            
+                        </select>
+
+                    </div>
+
+                    <div>
+                        <label><b>Second Closest School:</b></label>
+                        <select name="Second Closest School:" >
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay" selected>Greenbay</option>
+                            <option value="Greenbay" selected>Greenbay</option>
+                            <option value="Howard A Yeager" selected>Howard A Yeager</option>
+                            <option value="Marjorie P Hart" selected>Marjorie P Hart</option>
+                            <option value="North Elementary" selected>North Elementary</option>
+                            <option value="South Elementary" selected>South Elementary</option>
+                            <option value="click to select" selected>click to select</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padreH3"><h3 class="hijoH3">What position(s) do you normally play? (check all that apply)</h3></div>
+
+            <div class="padrePlay">
+                <div class="hijoPlay">
+                    <div>
+                        <div><input type="checkbox" name="positionPlay" value="Forward">Forward</div>
+                        <div><input type="checkbox" name="positionPlay" value="Defense">Defense</div>
+                    </div>
+                    <div>
+                        <div><input type="checkbox" name="positionPlay" value="Midfield">Midfield</div>
+                        <div><input type="checkbox" name="positionPlay" value="Goalkeeper">Goalkeeper</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="padreH3"><h3 class="hijoH3">What position(s) do you want to play? (check all that apply)</h3></div>
+
+            <div class="padrePlay">
+                <div class="hijoPlay">
+                    <div>
+                        <div><input type="checkbox" name="positionWant" value="Forward">Forward</div>
+                        <div><input type="checkbox" name="positionWant" value="Defense">Defense</div>
+                    </div>
+                    <div>
+                        <div><input type="checkbox" name="positionWant" value="Midfield">Midfield</div>
+                        <div><input type="checkbox" name="positionWant" value="Goalkeeper">Goalkeeper</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padreH3"><h3 class="hijoH3"><input type="checkbox" name="Uniform" value="Uniform">Already Have a Un1iform</h3></div>
+            
+            <div class="padreUniform">
+                <div class="hijoUniform">
+                    <div>
+                        <label><b>Jersey Size:</b></label>
+                        <div class="hijoUniform2">
+                            <div>
+                                <div><input type="radio" name="jersey" value="Youth Small" checked>Youth Small</div>
+                                <div><input type="radio" name="jersey" value="Youth Medium" checked>Youth Medium</div>
+                                <div><input type="radio" name="jersey" value="Youth Large" checked>Youth Large</div>
+                                <div><input type="radio" name="jersey" value="Small" checked>Small</div>
+                            </div>
+                            <div>
+                                <div><input type="radio" name="jersey" value="Medium" checked>Medium</div>
+                                <div><input type="radio" name="jersey" value="Large" checked>Large</div>
+                                <div><input type="radio" name="jersey" value="Extra-Large" checked>Extra-Large</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <label><b>Shorts Size:</b></label>
+                        <div class="hijoUniform2">
+                            <div>
+                                <div><input type="radio" name="shorst" value="Youth Small" checked>Youth Small</div>
+                                <div><input type="radio" name="shorst" value="Youth Medium" checked>Youth Medium</div>
+                                <div><input type="radio" name="shorst" value="Youth Large" checked>Youth Large</div>
+                                <div><input type="radio" name="shorst" value="Small" checked>Small</div>
+                            </div>
+                            <div>
+                                <div><input type="radio" name="shorst" value="Medium" checked>Medium</div>
+                                <div><input type="radio" name="shorst" value="Large" checked>Large</div>
+                                <div><input type="radio" name="shorst" value="Extra-Large" checked>Extra-Large</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="padreH3"><h3 class="hijoH3">Permission to Play</h3></div>
+            <div class="padreText">
+                <div class="hijoText">
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                        Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                        accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                        employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                        on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                        sponsored activities, which transportation.
+                        By signing below, I hereby agree and authorize the above. In addition, By entering your name below, I also acknowledge that I have read the
+                        cancellation policy and agree to its terms.
+                    </p>
+                </div>
+                <div class="hijoText">
+                    <div>
+                        <label><b>Parent/Guardian Signature:</b></label><input type="text" name="Parent/Guardian  Signature" style="width: 288px">
+                    </div>
+                    <div>
+                        <label><b></b>Date:</label><input type="date" name="DateSend">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
