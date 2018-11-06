@@ -19,13 +19,6 @@ img.mediana {
     width: 200px;
 }
 
-img.medianaContact {
-    height: 169px;
-    width: 173px;
-    align-content: center;
-    position: relative;
-    top: 122px;
-}
 .zoom{
     transition: transform 0.5s;
 }
@@ -82,16 +75,6 @@ h2.tipo1 {
     background: white;
 }
 
-
-
-div.boton {
-    text-align: right;
-    position: relative;
-    z-index: 1;
-
-
-}
-
 div.texto {
     height: 291px;
     width: 510px;
@@ -124,15 +107,6 @@ div.textoContact {
     color: aqua;
 }
 
-
-p.ballPosition {
-    font-family: cursive;
-    color: #0e0e0e;
-    ;
-    position: relative;
-    top: 4px;
-    left: 19px;
-}
 
 a.ball {
 
@@ -183,8 +157,6 @@ a.ball {
     text-decoration: none;
 }
 
-
-
 .rules {
     position: absolute;
     top: 13px;
@@ -229,15 +201,6 @@ div.textoRules {
     background-color: cadetblue;
 }
 
-.iconosRules {
-    position: relative;
-    top: 54px;
-    right: 438px;
-    text-align: center;
-    width: auto;
-    height: 84px;
-}
-
 table {
     width: 500px;
     border-collapse: separate;
@@ -264,7 +227,7 @@ td {
     width: 50%;
 }
 
-.padreButton {
+.padreButton, .padreData {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -276,10 +239,7 @@ td {
 
 .padreData {
     width: 99%;
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .hijoData1 {
@@ -304,7 +264,7 @@ td {
     justify-content: space-around;
 }
 
-.hijoSchool2 {
+.hijoSchool2, .hijoUniform2 {
     display: flex;
     flex-direction: row;
 }
@@ -338,10 +298,6 @@ td {
     justify-content: space-around;
 }
 
-.hijoUniform2 {
-    display: flex;
-    flex-direction: row;
-}
 
 .padreText {
     width: 100%;
